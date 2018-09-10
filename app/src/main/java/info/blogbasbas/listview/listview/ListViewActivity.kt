@@ -1,11 +1,11 @@
-package info.blogbasbas.listview
+package info.blogbasbas.listview.listview
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Toast
-import info.blogbasbas.listview.R.id.lv_data
+import info.blogbasbas.listview.R
 import kotlinx.android.synthetic.main.activity_list_view.*
 import java.util.*
 
@@ -28,7 +28,7 @@ class ListViewActivity : AppCompatActivity() {
 
             Toast.makeText(this,"Data klik $posisi",Toast.LENGTH_LONG).show()
             //kiirim data pakai intent
-            var kirimData = Intent(ListViewActivity@this,Detail::class.java)
+            var kirimData = Intent(ListViewActivity@this, Detail::class.java)
             kirimData.putExtra("data",dataArray.get(posisi).toString())
             startActivity(kirimData)
 

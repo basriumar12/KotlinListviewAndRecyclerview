@@ -1,8 +1,8 @@
-package info.blogbasbas.listview
+package info.blogbasbas.listview.listview
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import info.blogbasbas.listview.R
 import kotlinx.android.synthetic.main.activity_detail.*
 
 class Detail : AppCompatActivity() {

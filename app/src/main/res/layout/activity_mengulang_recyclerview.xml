@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="info.blogbasbas.listview.ui.RecyclerviewActivity">
+    tools:context="info.blogbasbas.listview.ui.MengulangRecyclerview">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv_data"
+        android:id="@+id/rv_mengulang_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
 

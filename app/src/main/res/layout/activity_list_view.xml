@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="info.blogbasbas.listview.ListViewActivity">
+    tools:context="info.blogbasbas.listview.listview.ListViewActivity">
 
     <ListView
         android:id="@+id/lv_data"
